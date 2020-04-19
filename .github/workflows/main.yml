@@ -13,4 +13,4 @@ jobs:
       with:
         ftp-server: ftp://ftp.nu1silva.com/
         ftp-username: stage@nu1silva.com
-        ftp-password: LIam535v9p1A
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
